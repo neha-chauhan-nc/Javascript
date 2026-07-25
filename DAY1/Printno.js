@@ -13,6 +13,12 @@ for(i=nums; i>=1;i--){
     console.log(nums);
 }
 
+//or
 
+let n=parseInt(prompt("Enter a number:-"))
+
+for(let i=0;i<=n; i++){
+    console.log(n-i+1);
+}
 
 
