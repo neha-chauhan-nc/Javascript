@@ -1,0 +1,5 @@
+// Show current date and time
+let now = new Date();
+
+console.log("Date: " + now.toLocaleDateString());
+console.log("Time: " + now.toLocaleTimeString());
