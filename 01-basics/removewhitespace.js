@@ -1,0 +1,7 @@
+// Remove spaces from a string
+function removeSpaces(str) {
+  return str.replace(/\s+/g, "");
+}
+
+console.log(removeSpaces("Neha loves coding"));
+// Output: "Nehalovescoding"
