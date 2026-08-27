@@ -12,3 +12,10 @@ function dfs(graph, start, visited = new Set()) {
 // Example usage:
 let graph = {
   0: [1, 2],
+  1: [2],
+  2: [0, 3],
+  3: [3]
+};
+
+dfs(graph, 2);
+// Output traversal: 2,0,1,3
