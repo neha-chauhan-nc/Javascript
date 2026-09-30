@@ -14,4 +14,3 @@ function coinChange(coins, amount) {
 }
 
 console.log(coinChange([1, 2, 5], 11)); // 3
-`
